@@ -1,0 +1,252 @@
+body {
+  color: #40433B;
+  background: #FFE19F !important;
+}
+
+@media screen and (min-width: 800px) {
+  .ios_content {
+    display: none;
+  }
+
+  .foot p,
+  .foot a {
+    color: #946142 !important;
+  }
+
+  .foot-explain {
+    color: #946142;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .example {
+    background: linear-gradient(to bottom, #FFF1CF 0%, #FFE19F 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF1CF', endColorstr='#FFE19F', GradientType=0);
+  }
+
+  :root {
+    filter: none;
+  }
+
+  .part1 {
+    margin: -46px auto 0 auto;
+    background: url(./assets/web/part1.png) no-repeat center;
+    width: 816px;
+    height: 905px;
+  }
+
+  .myprize {
+    margin: 0px auto 0 auto;
+    width: 816px;
+    height: 388px;
+    background: url(./assets/web/part2.png) no-repeat center;
+
+    .amount {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      padding-top: 150px;
+      font-size: 26px;
+      text-align: center;
+      line-height: 36px;
+
+      .orange {
+        color: #FFAA02;
+      }
+
+      .left50 {
+        margin-right: 120px;
+      }
+
+      .card {
+        width: 178px;
+        height: 108px;
+        margin-bottom: 15px;
+
+        &.card50 {
+          background: url(./assets/card50.png) no-repeat center/100% 100%;
+        }
+
+        &.card200 {
+          background: url(./assets/card200.png) no-repeat center/100% 100%;
+          // margin-left: 0.2rem;
+        }
+      }
+
+
+    }
+
+    .logincontain {
+      padding-top: 180px;
+    }
+
+    .login {
+      cursor: pointer;
+      border-radius: 7px;
+      margin: 0 auto;
+      font-size: 28px;
+      text-align: center;
+      color: white;
+      width: 245px;
+      height: 69px;
+      line-height: 69px;
+      background: #FFA701;
+      background: linear-gradient(to right, #FFD515, #FFA701);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFD515', endColorstr='#FFA701', GradientType=1);
+      /* 标准的语法 */
+    }
+
+    .not-start {
+      width: 250px;
+      margin: 0 auto;
+      padding-top: 190px;
+      font-size: 28px;
+
+      .hengxian {
+        margin-top: 18px;
+        width: 28px;
+        border: 1px solid black;
+
+        &.left {
+          margin-right: 10px;
+        }
+
+        &.right {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+  .rules {
+    margin: 0 auto;
+    background: url(./assets/web/rules.png) no-repeat center;
+    width: 816px;
+    height: 340px;
+  }
+
+  .banner {
+    background: url(./assets/web/banner.png) no-repeat center;
+    height: 502px;
+  }
+
+
+}
+
+@media screen and (max-width: 800px) {
+  .foot-explain {
+    display: none;
+  }
+
+  .banner {
+    background: url(./assets/wap/banner.png) no-repeat center/100% 100%;
+    width: 7.5rem;
+    height: 6.81rem;
+
+  }
+
+  .example {
+    margin-top: -1px;
+    background: url(./assets/wap/example.png) no-repeat center/100% 100%;
+    width: 7.5rem;
+    height: 6.44rem;
+  }
+
+  .myprize {
+    margin-top: -1px;
+    background: url(./assets/wap/myprize.png) no-repeat center/100% 100%;
+    width: 7.5rem;
+    height: 3.82rem;
+
+    .amount {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      padding-top: 1.5rem;
+      font-size: 0.26rem;
+      text-align: center;
+      line-height: 0.36rem;
+
+      .orange {
+        color: #FFAA02;
+      }
+
+      .left50 {
+        margin-right: 1.2rem;
+      }
+
+      .card {
+        width: 1.78rem;
+        height: 1.08rem;
+        margin-bottom: 0.15rem;
+
+        &.card50 {
+          background: url(./assets/card50.png) no-repeat center/100% 100%;
+        }
+
+        &.card200 {
+          background: url(./assets/card200.png) no-repeat center/100% 100%;
+          // margin-left: 0.2rem;
+        }
+      }
+
+
+    }
+
+    .logincontain {
+      padding-top: 1.8rem;
+    }
+
+    .login {
+      border-radius: 0.07rem;
+      margin: 0 auto;
+      font-size: 0.28rem;
+      text-align: center;
+      color: white;
+      width: 2.45rem;
+      height: 0.69rem;
+      line-height: 0.69rem;
+      background: #FFA701;
+      background: linear-gradient(to right, #FFD515, #FFA701);
+      // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFD515', endColorstr='#FFA701', GradientType=1);
+      /* 标准的语法 */
+    }
+
+    .not-start {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      padding-top: 1.9rem;
+
+      .hengxian {
+        width: 0.3rem;
+        border: 0.01rem solid black;
+
+        &.left {
+          margin-right: 0.1rem;
+        }
+
+        &.right {
+          margin-left: 0.1rem;
+        }
+      }
+    }
+  }
+
+  .rules {
+    margin-top: -1px;
+    background: url(./assets/wap/rules.png) no-repeat center/100% 100%;
+    width: 7.5rem;
+    height: 4.60rem;
+  }
+
+  .ios_content {
+    color: #946142;
+    font-size: 0.2rem;
+  }
+
+}

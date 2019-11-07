@@ -1,0 +1,837 @@
+body {
+  color: #40433B;
+  background: #2b1d6c !important;
+}
+
+.circle {
+  position: fixed !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+@media screen and (min-width: 800px) {
+  .ios_content {
+    display: none;
+  }
+
+  .banner {
+    background: url(./assets/web/banner.png) no-repeat center;
+    height: 452px;
+    position: relative;
+
+    .banner-time {
+      position: absolute;
+      transform: translateX(145%);
+      left: 50%;
+      font-size: 28px;
+      line-height: 71px;
+      color: white;
+      bottom: 73px;
+    }
+  }
+
+  .activity-introduce {
+    background: url(./assets/web/activity-introduce.png) no-repeat center;
+    height: 363px;
+  }
+
+  .part-one {
+    position: relative;
+    background: url(./assets/web/part-one-bg.png) no-repeat center;
+    height: 1129px;
+
+    .part-one-introduce {
+      padding-top: 247px;
+      width: 665px;
+      font-size: 28px;
+      margin: 0 auto;
+      text-indent: 47px;
+    }
+
+    .prize-items {
+      width: 573px;
+      margin: 90px auto 0 auto;
+      padding-top: 20px;
+    }
+
+    .prize-unit {
+      width: 220px;
+      height: 197px;
+      float: left;
+      position: relative;
+
+      &.marleft {
+        margin-left: 128px;
+      }
+
+      &.martop {
+        margin-top: 110px;
+      }
+    }
+
+    .prize-one {
+      background: url(./assets/prize1.png) no-repeat center/100% 100%;
+    }
+
+    .prize-two {
+      background: url(./assets/prize2.png) no-repeat center/100% 100%;
+    }
+
+    .prize-three {
+      background: url(./assets/prize3.png) no-repeat center/100% 100%;
+    }
+
+    .prize-four {
+      background: url(./assets/prize4.png) no-repeat center/100% 100%;
+    }
+
+    .myinvest {
+      width: 258px;
+      height: 46px;
+      background: #F5EEFE;
+      color: #C880FE;
+      font-size: 22px;
+      line-height: 46px;
+      border-radius: 23px;
+      position: absolute;
+      bottom: -50px;
+      text-align: center;
+      left: -16px;
+    }
+
+    .login {
+      cursor: pointer;
+      margin: 0 auto;
+      width: 325px;
+      height: 89px;
+      background: linear-gradient(to right, #C983FF, #BF60FD);
+      /* 标准的语法 */
+      margin-top: 50px;
+      border-radius: 44px;
+      text-align: center;
+      font-size: 28px;
+      line-height: 89px;
+      color: white;
+    }
+
+    .nostart {
+      position: relative;
+      width: 436px;
+      background: #F5EEFE;
+      border-radius: 18px;
+      height: 36px;
+      margin: 0 auto;
+      margin-top: 80px;
+      color: #C880FE;
+      line-height: 36px;
+      font-size: 26px;
+    }
+
+    .nostart-text {
+      margin-left: 143px;
+      position: absolute;
+    }
+
+    .line {
+      width: 40px;
+      position: absolute;
+      top: 17px;
+      border-top: 2px solid #C880FE;
+
+      &.line-left {
+        left: -46px;
+      }
+
+      &.line-right {
+        right: -46px;
+      }
+    }
+  }
+
+  .part-two {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    background: url(./assets/web/part-two-bg.png) no-repeat center;
+    height: 1133px;
+
+    .part-one-introduce {
+      padding-top: 297px;
+      width: 625px;
+      font-size: 28px;
+      margin: 0 auto;
+      text-indent: 47px;
+    }
+
+    .recordbtn {
+      cursor: pointer;
+      top: 420px;
+      position: absolute;
+      right: 75px;
+      width: 132px;
+      height: 51px;
+      background: url(./assets/recordbtn.png) no-repeat center/100% 100%;
+    }
+
+    .redpacket {
+      position: relative;
+      width: 656px;
+      height: 550px;
+      margin: 0 auto;
+      margin-top: 57px;
+
+
+
+      &.dark {
+        background: url(./assets/praypacket.png) no-repeat center/100% 100%;
+      }
+
+      .light-redpacket {
+        .light-top {
+          cursor: pointer;
+          position: absolute;
+          width: 388px;
+          height: 456px;
+          background: url(./assets/lighttop.png) no-repeat center/100% 100%;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+
+        .light-bottm {
+          position: absolute;
+          width: 656px;
+          height: 107px;
+          background: url(./assets/lightbottm.png) no-repeat center/100% 100%;
+          bottom: 0;
+        }
+      }
+
+      .chancenum {
+        text-align: center;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        font-size: 26px;
+        color: #FFDBBE;
+        top: 360px;
+      }
+
+      .totalamount {
+        position: absolute;
+        width: 511px;
+        margin: auto;
+        left: 0;
+        right: 0;
+        font-size: 26px;
+        color: #D89C56;
+        top: 506px;
+        text-align: center;
+      }
+    }
+
+    .nostart-text {
+      margin-left: 182px;
+      position: absolute;
+    }
+
+    .line {
+      width: 40px;
+      position: absolute;
+      top: 17px;
+      border-top: 2px solid #D89C56;
+
+      &.line-left {
+        left: -46px;
+      }
+
+      &.line-right {
+        right: -46px;
+      }
+    }
+
+  }
+
+
+  .rules {
+    height: 498px;
+    background: url(./assets/web/rules.png) no-repeat center;
+  }
+
+  .foot-explain {
+    font-size: 20px;
+    color: #8374C5;
+    text-align: center;
+  }
+
+  .foot p,
+  .foot a {
+    color: #8374C5 !important;
+  }
+
+  .h-mask {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    .h-mask-contain {
+      border: 4px solid #FEC786;
+      position: fixed;
+      padding-bottom: 50px;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+      width: 536px;
+      background: #FFF6E5;
+    }
+
+    .close {
+      position: absolute;
+      width: 28px;
+      height: 28px;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+
+    .close2 {
+      position: absolute;
+      width: 64px;
+      height: 64px;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+
+    .title {
+      margin: 30px auto 0 auto;
+      font-size: 28px;
+      color: #986F31;
+      width: 185px;
+
+      .star {
+        margin-top: 10px;
+        width: 20px;
+        height: 18px;
+        background: url(./assets/fivestar.png) no-repeat center/100% 100%;
+
+        &.left {
+          margin-right: 15px
+        }
+
+        &.right {
+          margin-left: 15px;
+        }
+      }
+    }
+
+    .record-contain {
+      font-size: 24px;
+      line-height: 48px;
+      color: #666666;
+      width: 450px;
+      margin: 30px auto 0 auto;
+      text-align: center;
+
+      .prized-list {
+        width: 450px;
+        max-height: 491px;
+        overflow-y: auto;
+        position: relative;
+      }
+
+      .cover-scroll {
+        width: 433px;
+        overflow-x: hidden;
+      }
+
+      .prized-unit {
+        border-bottom: 1px solid #E6D6C1;
+        height: 48px;
+      }
+
+      .border1 {
+        border-top: 1px solid #E6D6C1
+      }
+
+      .prize-amount,
+      .prize-time {
+        width: 50%;
+      }
+    }
+  }
+
+  .drawprize-contain {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 470px;
+    height: 463px;
+    background: url(./assets/drawpacket.png) no-repeat center top;
+
+    .drawclose {
+      top: -50px;
+      right: -30px;
+    }
+
+    .win-amount {
+      position: absolute;
+      font-size: 56px;
+      color: #986F31;
+      top: 110px;
+      transform: translateX(-50%);
+      left: 50%;
+    }
+
+    .close-win-btn {
+      cursor: pointer;
+      position: absolute;
+      font-size: 56px;
+      color: #986F31;
+      background: linear-gradient(to bottom, #FCF0E0, #F9DC9A);
+      top: 351px;
+      transform: translateX(-50%);
+      left: 50%;
+      width: 239px;
+      height: 68px;
+      line-height: 68px;
+      font-size: 28px;
+      border-radius: 34px;
+      text-align: center;
+    }
+  }
+
+  .coverleft {
+    position: absolute;
+    width: 1px;
+    height: 176px;
+    background: #2b1d6c;
+    // background: red;
+    left: 0px;
+  }
+
+  .coverright {
+    position: absolute;
+    width: 1px;
+    height: 176px;
+    background: #2b1d6c;
+    // background: red;
+    right: 0px;
+  }
+
+  .covertop {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #2b1d6c;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .scrollProblem {
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  //ios需要加下面一段
+  .scrollProblem-ios {
+    overflow: hidden;
+  }
+
+  .banner {
+    position: relative;
+    background: url(./assets/wap/banner.png) no-repeat center/100% 100%;
+    width: 7.5rem;
+    height: 10.60rem;
+
+    .banner-time {
+      display: none;
+      font-weight: 500;
+      position: absolute;
+      top: 3.15rem;
+      left: 3.9rem;
+      font-size: 0.28rem;
+      line-height: 0.71rem;
+      color: #E17E26;
+    }
+  }
+
+  .part-one {
+    position: relative;
+    background: url(./assets/wap/part-one-bg.png) no-repeat center/100% 100%;
+    height: 10.48rem;
+
+    .part-one-introduce {
+      padding-top: 1.8rem;
+      width: 6.11rem;
+      font-size: 0.28rem;
+      margin: 0 auto;
+      text-indent: 0.47rem;
+      line-height: 0.48rem;
+
+    }
+
+    .prize-items {
+      width: 5.73rem;
+      margin: 0.90rem auto 0 auto;
+    }
+
+    .prize-unit {
+      width: 2.20rem;
+      height: 1.97rem;
+      float: left;
+      position: relative;
+
+      &.marleft {
+        margin-left: 1.28rem;
+      }
+
+      &.martop {
+        margin-top: 1.10rem;
+      }
+    }
+
+    .prize-one {
+      background: url(./assets/prize1.png) no-repeat center/100% 100%;
+    }
+
+    .prize-two {
+      background: url(./assets/prize2.png) no-repeat center/100% 100%;
+    }
+
+    .prize-three {
+      background: url(./assets/prize3.png) no-repeat center/100% 100%;
+    }
+
+    .prize-four {
+      background: url(./assets/prize4.png) no-repeat center/100% 100%;
+    }
+
+    .myinvest {
+      min-width: 2.58rem;
+      height: 0.46rem;
+      background: #F5EEFE;
+      color: #C880FE;
+      font-size: 0.22rem;
+      line-height: 0.46rem;
+      border-radius: 0.23rem;
+      position: absolute;
+      bottom: -0.50rem;
+      text-align: center;
+      // left: -0.16rem;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 0 0.25rem;
+      white-space: nowrap;
+    }
+
+    .login {
+      margin: 0 auto;
+      width: 3.25rem;
+      height: 0.89rem;
+      background: linear-gradient(to right, #C983FF, #BF60FD);
+      /* 标准的语法 */
+      margin-top: 0.40rem;
+      border-radius: 0.44rem;
+      text-align: center;
+      font-size: 0.28rem;
+      line-height: 0.89rem;
+      color: white;
+    }
+
+    .nostart {
+      position: relative;
+      width: 4.36rem;
+      background: #F5EEFE;
+      border-radius: 0.18rem;
+      height: 0.36rem;
+      margin: 0 auto;
+      margin-top: 0.8rem;
+      color: #C880FE;
+      line-height: 0.40rem;
+      font-size: 0.26rem;
+    }
+
+    .nostart-text {
+      margin-left: 1.43rem;
+      position: absolute;
+    }
+
+    .line {
+      width: 0.40rem;
+      position: absolute;
+      top: 0.17rem;
+      border-top: 2px solid #C880FE;
+
+      &.line-left {
+        left: -0.46rem;
+      }
+
+      &.line-right {
+        right: -0.46rem;
+      }
+    }
+  }
+
+  .part-two {
+    // width: 7.5rem;
+    margin: 0 auto;
+    position: relative;
+    background: url(./assets/wap/part-two-bg.png) no-repeat center/100% 100%;
+    height: 11.27rem;
+
+    .part-one-introduce {
+      padding-top: 2.97rem;
+      width: 6.27rem;
+      font-size: 0.28rem;
+      margin: 0 auto;
+      text-indent: 0.47rem;
+    }
+
+    .recordbtn {
+      top: 4.20rem;
+      position: absolute;
+      right: 0.19rem;
+      width: 1.32rem;
+      height: 0.51rem;
+      background: url(./assets/recordbtn.png) no-repeat center/100% 100%;
+    }
+
+    .redpacket {
+      position: relative;
+      width: 6.56rem;
+      height: 5.50rem;
+      margin: 0 auto;
+      margin-top: 0.67rem;
+
+
+
+      &.dark {
+        background: url(./assets/praypacket.png) no-repeat center/100% 100%;
+      }
+
+      .light-redpacket {
+        .light-top {
+          cursor: pointer;
+          position: absolute;
+          width: 3.88rem;
+          height: 4.56rem;
+          left: 50%;
+          transform: translateX(-50%);
+          background: url(./assets/lighttop.png) no-repeat center/100% 100%;
+        }
+
+        .light-bottm {
+          position: absolute;
+          width: 6.56rem;
+          height: 1.07rem;
+          background: url(./assets/lightbottm.png) no-repeat center/100% 100%;
+          bottom: 0;
+        }
+      }
+
+      .chancenum {
+        position: absolute;
+        text-align: center;
+        margin: auto;
+        left: 0;
+        right: 0;
+        font-size: 0.26rem;
+        color: #FFDBBE;
+        top: 3.60rem;
+      }
+
+      .totalamount {
+        position: absolute;
+        width: 5.11rem;
+        margin: auto;
+        left: 0;
+        right: 0;
+        font-size: 0.26rem;
+        color: #D89C56;
+        top: 5.06rem;
+        text-align: center;
+      }
+    }
+
+    .nostart-text {
+      margin-left: 1.82rem;
+      position: absolute;
+      line-height: 0.37rem;
+    }
+
+    .line {
+      width: 0.40rem;
+      position: absolute;
+      top: 0.17rem;
+      border-top: 2px solid #D89C56;
+
+      &.line-left {
+        left: -0.46rem;
+      }
+
+      &.line-right {
+        right: -0.46rem;
+      }
+    }
+
+  }
+
+
+
+  .rules {
+    height: 6.56rem;
+    background: url(./assets/wap/rules.png) no-repeat center/100% 100%;
+  }
+
+  .foot-explain {
+    display: none;
+  }
+
+  .ios_content {
+    color: #8374C5;
+    font-size: 0.2rem;
+    margin-top: -0.3rem !important;
+  }
+
+  .h-mask {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    .h-mask-contain {
+      position: fixed;
+      padding-bottom: 0.50rem;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+      width: 5.36rem;
+      background: #FFF6E5;
+      border: 0.04rem solid #FEC786;
+    }
+
+    .close {
+      position: absolute;
+      width: 0.28rem;
+      height: 0.28rem;
+      top: 00.1rem;
+      right: 0.1rem;
+      cursor: pointer;
+    }
+
+    .close2 {
+      position: absolute;
+      width: 0.64rem;
+      height: 0.64rem;
+      top: 00.1rem;
+      right: 0.1rem;
+      cursor: pointer;
+    }
+
+    .title {
+      margin: 0.30rem auto 0 auto;
+      font-size: 0.28rem;
+      color: #986F31;
+      width: 1.85rem;
+
+      .star {
+        margin-top: 0.10rem;
+        width: 0.20rem;
+        height: 0.18rem;
+        background: url(./assets/fivestar.png) no-repeat center/100% 100%;
+
+        &.left {
+          margin-right: 0.15rem
+        }
+
+        &.right {
+          margin-left: 0.15rem;
+        }
+      }
+    }
+
+    .record-contain {
+      font-size: 0.24rem;
+      line-height: 0.48rem;
+      color: #666666;
+      width: 4.50rem;
+      margin: 0.30rem auto 0 auto;
+      text-align: center;
+
+      .prized-list {
+        -webkit-overflow-scrolling: touch;
+        max-height: 4.99rem;
+        overflow: auto;
+      }
+
+      .prized-unit {
+        border-bottom: 1px solid #E6D6C1;
+        height: 0.48rem;
+      }
+
+      .border1 {
+        border-top: 1px solid #E6D6C1;
+      }
+
+      .prize-amount,
+      .prize-time {
+        width: 50%;
+      }
+    }
+  }
+
+  .drawprize-contain {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 4.70rem;
+    height: 4.63rem;
+    background: url(./assets/drawpacket.png) no-repeat center /100% 100%;
+
+    .drawclose {
+      top: -0.50rem;
+      right: -0.30rem;
+    }
+
+    .win-amount {
+      position: absolute;
+      font-size: 0.56rem;
+      color: #986F31;
+      top: 1.10rem;
+      transform: translateX(-50%);
+      left: 50%;
+    }
+
+    .close-win-btn {
+      cursor: pointer;
+      position: absolute;
+      font-size: 0.56rem;
+      color: #986F31;
+      background: linear-gradient(to bottom, #FCF0E0, #F9DC9A);
+      top: 3.51rem;
+      transform: translateX(-50%);
+      left: 50%;
+      width: 2.39rem;
+      height: 0.68rem;
+      line-height: 0.74rem;
+      font-size: 0.28rem;
+      border-radius: 0.34rem;
+      text-align: center;
+    }
+  }
+
+}

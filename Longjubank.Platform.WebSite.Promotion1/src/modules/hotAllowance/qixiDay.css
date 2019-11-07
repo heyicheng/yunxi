@@ -1,0 +1,149 @@
+body {
+    color: #2CA6AB;
+    background: #B2E5F6;
+}
+@media screen and (max-width: 800px) {
+    .banner {
+        background: url(./assets/app/APP_02.png) no-repeat center/100% 100%;
+        width: 7.5rem;
+        height: 7rem;
+    }
+    .partOne{
+        background: url(./assets/app/APP_03.png) no-repeat center/100% 100%;
+        width: 7.5rem;
+        height: 5rem;
+    }
+    .partTwo{
+        background: url(./assets/app/APP_04.png) no-repeat center/100% 100%;
+        width: 7.5rem;
+        height: 12rem;
+        padding-top: 0.58rem;
+        text-align: center
+    }
+    .partThree{
+        background: url(./assets/app/APP_05.png) no-repeat center/100% 100%;
+        width: 7.5rem;
+        height: 4.33rem;
+    }
+    .partfour{
+        background: url(./assets/app/APP_06.png) no-repeat center/100% 100%;
+        width: 7.5rem;
+        height: 6.67rem;
+    }
+    .div-status {
+        background: url(./assets/app/icon_1.png) no-repeat center/100% 100%;
+       width: 4.76rem;
+       height: 1.03rem; 
+       margin: auto;
+       margin-top: 0.40rem;
+       text-align: center
+      }
+      .img_Notlogin{
+          width: 3.45rem;
+          height: 1.03rem;
+          margin: auto;
+          margin-top: 0.20rem;
+      }
+      .img_Notstarted{
+          width: 3.07rem;
+          height: 1.03rem;
+          margin: auto;
+          margin-top: 0.20rem;
+      }
+      .ios_content{
+        color: #2CA6AB;
+        margin-bottom: 0.2rem;
+        font-size: 0.18rem;
+        margin-top: 0.1rem
+      }
+      
+}
+@media screen and (min-width: 800px) {
+    .banner {
+        background: url(./assets/web/web_02.png) no-repeat center center;
+        height: 700px;
+    }
+    .partOne{
+        background: url(./assets/web/web_03.png) no-repeat center center;
+        height: 430px;
+        margin-top: -1px;
+    }
+    .partTwo{
+        background: url(./assets/web/web_04.png) no-repeat center center;
+        height: 1202px;
+        overflow: hidden;
+        text-align: center
+    }
+    .partThree{
+        background: url(./assets/web/web_05.png) no-repeat center center;
+        height: 427px;
+    }
+    .partfour{
+        background:#5dc5c9 url(./assets/web/web_06.png) no-repeat center center;
+        height: 540px;
+    }
+    .div-status {
+        background: url(./assets/app/icon_1.png) no-repeat center/100% 100%;
+       width: 476px;
+       height: 103px; 
+       margin: auto;
+       text-align: center;
+      }
+      .img_Notlogin{
+          width: 345px;
+          height: 103px;
+          margin: auto;
+          margin-top: 80px;
+      }
+      .img_Notstarted{
+          width: 307px;
+          height: 103px;
+          margin: auto;
+          margin-top: 80px;
+      }
+      .foot p{
+        color: #5dc5c9;
+        font-weight: 450;
+        font-size: 20px;
+      }
+      .foot p a{
+        color: #5dc5c9;
+        font-weight: 450;
+        font-size: 20px;
+      }
+      .foot p a:hover {
+        color: #507ff7;
+    }
+}
+@media screen and (min-width: 1920px){
+    .right-um{
+        background: url(./assets/web/right_umbrella.png) no-repeat center center;
+        width: 169px;
+        height: 300px;
+        position: absolute;
+        top: 1274px;
+        right: 0;
+    }
+    .right-leaf{
+        background: url(./assets/web/right_Leaf.png) no-repeat center center;
+        width: 89px;
+        height: 303px;
+        position: absolute;
+        top: 2248px;
+        right: 0;
+    }
+    .left-um{
+        background: url(./assets/web/left_umbrella.png) no-repeat center center;
+        width: 169px;
+        height: 300px;
+        position: absolute;
+        top: 840px;
+    }
+    .left-leaf{
+        background: url(./assets/web/left_Leaf.png) no-repeat center center;
+        width: 89px;
+        height: 303px;
+        position: absolute;
+        top: 1946px;
+    }
+}

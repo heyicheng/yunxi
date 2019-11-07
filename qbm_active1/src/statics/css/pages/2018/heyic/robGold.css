@@ -1,0 +1,232 @@
+@charset "UTF-8";
+body {
+    background: #fd7505;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+.nav,
+.foot {
+    display: none;
+}
+.flex-row-between{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.separate {
+    height: 70px;
+    background: url(../pages/2018/images/robGold/web/goldLeft.png) 80px 0 no-repeat, url(../pages/2018/images/robGold/web/goldRight.png) 927px 0 no-repeat;
+    background-size: 189px 70px;
+    margin-top: 70px
+  }
+@media screen and (min-width:800px) {
+    .wap{
+        display: none;
+    }
+    .web{
+        display: block;
+    }
+    .orange{
+        color: #fea026;
+    }
+    body{
+        font-size: 22px;
+        color: #503100;
+    }
+    .nav,
+    .foot{
+        display: block;
+        line-height: 50px;
+    }
+    .foot p{
+        color: #f9dfa9!important;
+        font-size: 14px!important;
+    }
+    .foot a{
+        color: #f9dfa9!important;
+        font-size: 14px!important;
+    }
+
+    .banner {
+        position: relative;
+        width: 100%;
+        height: 545px;
+    }
+    .bannerLeft{
+        position: absolute;
+        width: 580px;
+        height: 380px;
+        left: 0;
+        top: 0;
+        z-index: 1
+    
+    }
+    .bannerRight{
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        width: 580px;
+        height: 380px;
+    }
+    .head{
+        position: relative;
+        width: 1190px;
+        height: 545px;
+        margin: 0 auto;
+        background: url(../images/robGold/web/banner.png);
+        background-size: 100% 545px;
+    }
+
+    main{
+        width: 1190px;
+        margin: 0 auto ;
+        background: url(../images/robGold/web/verticalMain.png) 80px 0px no-repeat,url(../images/robGold/web/verticalMain.png) 1044px 0px no-repeat;
+        background-color: #e33804;
+        padding-top: 72px;
+    }
+    .introduce .title{
+        width: 362px;
+        height: 74px;
+        background: url(../images/robGold/web/introduce.png);
+        background-size: 100% ;
+        margin: 0 auto ;
+    }
+    .introduce .content{
+        width: 572px;
+        height: 190px;
+        background: url(../images/robGold/web/scroll.png) no-repeat;
+        background-size: 100% ;
+        margin: 34px auto 0 auto ;
+        padding: 60px 66px 0 66px;
+        line-height: 40px;
+        text-indent: 38px;
+        position: relative;
+    }
+    .introduce .game-over{
+        width: 144px;
+        height: 76px;
+        background: url(../images/robGold/web/gameOverBac.png);
+        background-size: 100%;
+        position: absolute;
+        top: 126px;
+        right: 44px;
+    }
+    .introduce .table{
+        width: 704px;
+        height: 404px;
+        background: url(../images/robGold/web/rulesBac.png);
+        background-size: 100% ;
+        margin: 42px auto 0 auto ;
+    }
+    .introduce .table-head{
+        width: 500px;
+        /* height: 56px; */
+        font-size: 20px;
+        line-height: 36px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 70px;
+        color: #f6cb44;
+    }
+    #object-introduce{
+        color: #f9e8b2;
+        width:   644px;
+        height: 160px;
+        margin: 45px auto 0 auto;
+        border: 2px solid #fba420;
+        text-align: center;
+    }
+    .separate{
+        height: 70px;;
+        background: url(../images/robGold/web/goldLeft.png) 80px 0 no-repeat ,url(../images/robGold/web/goldRight.png) 927px 0 no-repeat;
+        background-size: 189px 70px;
+        margin-top:70px;
+    }
+    .rules .title{
+        width: 362px;
+        height: 74px;
+        background: url(../images/robGold/web/rules.png);
+        background-size: 100% ;
+        margin: 0 auto ;
+    }
+    .rules .content{
+        position: relative;
+        width: 1040px;
+        height: 416px;
+        background: url(../images/robGold/web/rulesIntroduceBac.png);
+        background-size: 100%;
+        margin: 60px auto 0 auto;
+    }
+    .gold-float{
+        position: absolute;
+        width: 145px;
+        height: 91px;
+        right: -20px;
+        bottom: -20px;
+    }
+    .horizontal-line{
+        height: 75px;;
+        position: absolute;
+        width: 100%;
+        background: #ff9211;
+        bottom: 0;
+    }
+    .rules .jieshao{
+        width: 903px;
+        height: 248px;;
+        line-height: 44px;
+        font-size: 20px;
+        padding-top:68px ;
+        margin:0 auto;
+    }
+    .interpretation{
+        font-size: 18px;color: #f9dfa9;
+        margin-top: 80px;
+        text-align: center;
+    }
+    .ios_content {
+        display: none;
+    }
+}
+
+@media screen and (max-width:800px) {
+    body{
+        min-width: 0;
+        background: #e33804;
+    }
+    .wap{
+        display: block;
+        /* background:  */
+    }
+    .wapBac{
+        width: 100%;
+        height: 19.06rem;
+        background: url(../images/robGold/wap/activiting.png);
+        background-size: 100%;
+        position: relative;
+    }
+    .web{
+        display: none;
+    }
+    .game-over-wap{
+        width: 1.44rem;
+        height: 0.76rem;
+        position: absolute;
+        right: 1.16rem;
+        top: 6.26rem;
+        background: url(../images/robGold/wap/gameOver.png);
+        background-size: 100%;
+    }
+    .ios_content {
+        font-size: 0.18rem;
+        color: #ffaf20;
+        text-align: center;
+        margin-bottom: 0.4rem;
+        display: none;
+    }
+}

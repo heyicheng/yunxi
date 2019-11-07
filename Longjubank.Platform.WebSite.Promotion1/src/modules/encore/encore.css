@@ -1,0 +1,191 @@
+body {
+    color: #886517;
+  background: #6F22B5;
+}
+
+    @media screen and (min-width: 800px) {
+    .web {
+      display: block; }
+    .wap {
+      display: none; }
+    .hidden-scroll {
+      position: absolute;
+      top: 0;
+      right: -17px;
+      left: 0;
+      bottom: 0; }
+    .interpretation-wap {
+      display: none; }
+    .interpretation {
+      display: block;
+      font-size: 18px;
+      color: #D3A3FF;
+      text-align: center;
+      margin-top: 52px; }
+    .banner {
+      background: url(./assets/web/bannerone.jpg) no-repeat center center;
+      height: 565px; }
+    .bannertwo {
+      background: url(./assets/web/bannertwo.jpg) no-repeat center center;
+      height: 559px; }
+    .bodyone {
+      margin: 0 auto;
+      background: url(./assets/web/bodyone.png) no-repeat center center;
+      height: 947px;
+      width: 1033px; }
+    .date {
+      width: 24px;
+      height: 24px;
+      vertical-align: middle; }
+    .bodytwo {
+      margin: 0 auto;
+      background: url(./assets/web/bodytwo.png) no-repeat center center;
+      height: 504px;
+      position: relative;
+      width: 1033px; }
+      .bodytwo .notstart {
+        color: #C552D7;
+        font-weight: 700;
+        line-height: 314px;
+        margin: 0 auto;
+        text-align: center; }
+      .bodytwo .login {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        height: 80px;
+        width: 274px;
+        background: #C552D7;
+        text-align: center;
+        color: white;
+        line-height: 80px;
+        border-radius: 3px; }
+      .bodytwo .contain {
+        position: absolute;
+        left: 103px;
+        top: 106px;
+        width: 825px;
+        height: 314px;
+        font-size: 28px; }
+      .bodytwo .myinvest {
+        padding: 61px 76px 78px 76px;
+        text-align: center;
+        font-size: 28px;
+        color: black; }
+        .bodytwo .myinvest .head {
+          font-weight: 600;
+          padding-bottom: 20px;
+          border-bottom: 1px solid #ccd0d1; }
+        .bodytwo .myinvest .danyuan {
+          width: 50%; }
+          .bodytwo .myinvest .danyuan.right {
+            text-align: right;
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+            padding-right: 103px; }
+        .bodytwo .myinvest .content {
+          margin-top: 20px; }
+        .bodytwo .myinvest .contenttwo {
+          margin-top: 25px; }
+    .rules {
+      margin: 0 auto;
+      background: url(./assets/web/rules.png) no-repeat center center;
+      height: 623px; } }
+  
+  @media screen and (max-width: 800px) {
+    .web {
+      display: none; }
+    .wap {
+      display: block; }
+    body {
+      font-size: 0.24rem; }
+    .ios_content {
+      font-size: 0.18rem;
+      color: #D3A3FF;
+      text-align: center;
+      width: 5rem;
+      margin: -0.2rem auto 0 auto; }
+    .interpretation-wap {
+      display: none;
+      font-size: 0.18rem;
+      color: #D3A3FF;
+      text-align: center; }
+    .interpretation {
+      display: none; }
+    .banner {
+      background: url(./assets/wap/banner.jpg) no-repeat center center/100% 100%;
+      height: 7.26rem; }
+    .bannertwo {
+      margin-top: -0.01rem;
+      background: url(./assets/wap/APP-2_08.png) no-repeat center center/100% 100%;
+      height: 6.96rem; }
+    .bodyone {
+      background: url(./assets/wap/bannertwo.png) no-repeat center center/100% 100%;
+      height: 6.55rem;
+      margin-top: -0.01rem; }
+    .date {
+      width: 0.24rem;
+      height: 0.24rem;
+      vertical-align: middle; }
+    .bodytwo {
+      margin: 0 auto;
+      background: url(./assets/wap/bodyone.png) no-repeat center center/100% 100%;
+      height: 4.40rem;
+      position: relative;
+      font-size: 0.28rem; }
+      .bodytwo .notstart {
+        color: #C552D7;
+        line-height: 3rem;
+        margin: 0 auto;
+        font-weight: 700;
+        text-align: center; }
+      .bodytwo .login {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        height: 0.80rem;
+        width: 2.74rem;
+        background: #C552D7;
+        text-align: center;
+        color: white;
+        line-height: 0.80rem;
+        border-radius: 3px; }
+      .bodytwo .contain {
+        position: absolute;
+        left: 0.42rem;
+        top: 0.66rem;
+        width: 6.64rem;
+        height: 3rem;
+        font-size: 0.28rem; }
+      .bodytwo .myinvest {
+        padding: 0.61rem 0.5rem 0.78rem 0.5rem;
+        text-align: center;
+        font-size: 0.28rem;
+        color: black; }
+        .bodytwo .myinvest .head {
+          font-weight: 600;
+          padding-bottom: 0.20rem;
+          border-bottom: 1px solid #ccd0d1; }
+        .bodytwo .myinvest .danyuan {
+          width: 50%; }
+          .bodytwo .myinvest .danyuan.right {
+            text-align: right;
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+            padding-right: 0.93rem; }
+        .bodytwo .myinvest .content {
+          margin-top: 0.20rem; }
+        .bodytwo .myinvest .contenttwo {
+          margin-top: 0.25rem; }
+    .rules {
+      margin: 0 auto;
+      background: url(./assets/wap/APP-2_13.png) no-repeat center center/100% 100%;
+      height: 7.77rem;
+      margin-top: -0.01rem; } }
+  

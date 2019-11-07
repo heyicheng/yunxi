@@ -1,0 +1,265 @@
+body {
+    color: #709B8E;
+    background: #DAEEE8;
+}
+
+@media screen and (min-width: 800px) {
+    .banner {
+        background: url(./assets/web/IMG_8261_01.png) no-repeat center center;
+        height: 610px;
+    }
+    .partOne {
+        background: url(./assets/web/IMG_8261_03.png) no-repeat center center;
+        width: 988px;
+        height: 1129px;
+        margin: 0 auto;
+    }
+    .partTwo {
+        background: url(./assets/web/IMG_8261_05.png) no-repeat center center;
+        width: 988px;
+        height: 944px;
+        margin: 0 auto;
+    }
+
+    .invest {
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .invest .loginButton{
+        width: 274px;
+        height: 80px;
+        opacity: 1;
+        background: rgba(103,195,168,1);
+        color: white;
+        font-size: 28px;
+        border-radius: 6px;
+        border: none;
+        outline: none;
+        margin-top: 155px;
+        cursor: pointer;
+    }
+
+    .invest .activityNotReady {
+        margin-top: 164px;
+        font-size: 28px;
+        color: rgba(83,114,108,1);
+        font-weight: bold;
+    }
+
+    .invest .investItem {
+        width: calc(100% - 310px);
+        margin-left: 155px;
+    }
+
+    .invest .investItem .investTitle {
+        width: 50%;
+        margin-top: 110px;
+        font-size: 28px;
+        color: rgba(73,73,73,1);
+        font-weight: bold;
+    }
+
+    .invest .investItem .rightinvestTitle{
+        width: 33%;
+        text-align: right;
+        margin-top: 110px;
+        font-size: 28px;
+        color: rgba(73,73,73,1);
+        font-weight: bold;
+    }
+
+    .invest .investItem .investSeperate{
+        border-top: 1px dashed rgba(119, 114, 114, 0.356);
+        height: 1px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .invest .investNum {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .invest .investItem .leftcontent {
+        width: 50%;
+        overflow: hidden;
+    }
+
+    .invest .investItem .leftcontent .itemicon{
+        width: 24px;
+        height: 24px;
+        margin-top: 6px;
+        margin-left: 68px;
+        margin-right: 12px;
+    }
+
+    .invest .investItem .leftcontent .itemTitle{
+        font-size: 28px;
+        color: rgba(73,73,73,1);
+        text-align: left;
+    }
+
+    .invest .investItem .amount{
+        width: 33%;
+        text-align: right;
+        font-size: 28px;
+        color: rgba(73,73,73,1);
+    }
+
+    .lowerframe {
+        background: url(./assets/web/invest-notlogin.png) no-repeat center center;
+        width: 988px;
+        height: 437px;
+        margin: 0 auto;
+    }
+    .higherframe {
+        background: url(./assets/web/invest-login.png) no-repeat center center;
+        width: 988px;
+        height: 572px;
+        margin: 0 auto;
+    }
+    .activity {
+        background: #BCE6DA;
+        width: 100%;
+    }
+    .activityrule{
+        background: url(./assets/web/web-1_11.png) no-repeat center center;
+        width: 988px;
+        height: 637px;
+        margin: 0 auto;
+    }
+    .interpretation{
+        font-size: 20px;
+        color: #709B8E;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .banner {
+        background: url(./assets/app/APP-2_03-2.png) no-repeat center/100% 100%;
+        width: 7.5rem;
+        height: 7.45rem;
+    }
+    .partOne {
+        margin-top: -0.01rem;
+        background: url(./assets/app/IMG_8251_02.png) no-repeat center/100% 100%;
+        width: 7.5rem;
+        height: 11.31rem;
+    }
+    .partTwo {
+        background: url(./assets/app/IMG_8251_03.png) no-repeat center/100% 100%;
+        width: 7.5rem;
+        height: 11.5rem;
+    }
+
+    .invest {
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .invest .loginButton{
+        width: 2.74rem;
+        height: 0.8rem;
+        opacity: 1;
+        background: rgba(103,195,168,1);
+        color: white;
+        font-size: 0.28rem;
+        border-radius: 0.06rem;
+        border: none;
+        outline: none;
+        margin-top: 1.65rem;
+        cursor: pointer;
+    }
+
+    .invest .activityNotReady {
+        margin-top: 1.79rem;
+        font-size: 0.28rem;
+        color: rgba(83,114,108,1);
+        font-weight: bold;
+    }
+
+    .invest .investItem {
+        width: calc(100% - 2rem);
+        margin-left: 1rem;
+    }
+
+    .invest .investItem .investTitle {
+        width: 50%;
+        margin-top: 1.10rem;
+        font-size: 0.28rem;
+        color: rgba(73,73,73,1);
+        font-weight: bold;
+    }
+    .invest .investItem .rightinvestTitle {
+        width: 35%;
+        text-align: right;
+        margin-top: 1.10rem;
+        font-size: 0.28rem;
+        color: rgba(73,73,73,1);
+        font-weight: bold;
+    }
+
+    .invest .investItem .investSeperate{
+        border-top: 0.02rem dashed rgba(119, 114, 114, 0.356);
+        height: 0.01rem;
+        width: 100%;
+        margin-top: 0.1rem;
+    }
+
+    .invest .investNum {
+        margin-top: 0.3rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .invest .investItem .leftcontent {
+        width: 50%;
+        overflow: hidden;
+    }
+
+    .invest .investItem .leftcontent .itemicon{
+        width: 0.24rem;
+        height: 0.24rem;
+        margin-top: 0.06rem;
+        margin-right: 0.12rem;
+        margin-left: 0.08rem;
+    }
+
+    .invest .investItem .leftcontent .itemTitle{
+        font-size: 0.28rem;
+        color: rgba(73,73,73,1);
+        text-align: left;
+    }
+
+    .invest .investItem .amount{
+        width: 35%;
+        text-align: right;
+        font-size: 0.28rem;
+        color: rgba(73,73,73,1);
+    }
+
+    .lowerframe {
+        background: url(./assets/app/APP-notlogin.png) no-repeat center/100% 100%;
+        width: 7.5rem;
+        height: 4.06rem;
+    }
+    .higherframe {
+        background: url(./assets/app/APP-2_07.png) no-repeat center/100% 100%;
+        width: 7.5rem;
+        height: 5.32rem;
+    }
+    .activity {
+        background: #BCE6DA;
+        width: 7.5rem;
+    }
+    .activity .activityrule{
+        background: url(./assets/app/APP-2_08-2.png) no-repeat center/100% 100%;
+        width: 7.5rem;
+        height: 7.27rem;
+    }
+    .interpretation{
+        display: none;
+    }
+}

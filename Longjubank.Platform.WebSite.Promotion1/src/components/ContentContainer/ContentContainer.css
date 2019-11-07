@@ -1,0 +1,107 @@
+.nav {
+    height: 47px;
+    line-height: 47px;
+    background-color: #32373c;
+    color: #fff;
+    min-width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  
+  .nav .nav_content {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .nav .nav_left .line {
+    display: inline-block;
+    background-color: #fff;
+    width: 1px;
+    height: 14px;
+    line-height: 14px;
+    margin: 0px 10px;
+  }
+  
+  .nav .nav_left span {
+    line-height: 14px;
+  }
+  
+  .nav .nav_left a {
+    color: #e85454;
+    font-size: 14px;
+    line-height: 14px;
+  }
+  
+  .nav .nav_left a img {
+    margin: 17px 0 0 10px;
+  }
+  
+  .nav .nav_right a {
+    color: #fff;
+  }
+  .nav .nav_right a:hover {
+    color: #e95d42;
+  }
+  
+  .nav_right {
+    height: 13px;
+    padding-top: 21px;
+  }
+  .nav_right ul {
+    height: 13px;
+  }
+  .nav_right ul li {
+    float: left;
+    padding: 0 10px;
+    cursor: pointer;
+    height: 13px;
+    line-height: 13px;
+  }
+  .nav_right ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .nav_right ul li.border_right {
+    border-right: 1px solid #c9c9c9;
+  }
+  
+  @media screen and (min-width: 800px) {
+    body{
+        min-width: 1200px;
+    }
+    .foot {
+      height: 80px;
+      line-height: 80px;
+      width: 100%;
+    }
+  
+    .foot p {
+      text-align: center;
+      width: 1200px;
+      font-size: 14px;
+      margin: 0 auto;
+      color: #5e2b00;
+    }
+    .foot p a {
+      color: #5e2b00;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+      body{
+          min-width: 0px;
+      }
+    .foot {
+      display: none;
+    }
+    .nav {
+      display: none;
+    }
+    .ios_content {
+      font-size: 0.18rem;
+      text-align: center;
+      width: 5rem;
+      margin: 0 auto;
+    }
+  }
