@@ -1,0 +1,1 @@
+"use strict";define(function(require,exports,module){require("jquery"),require("axios"),console.log($),console.log(axios)});
